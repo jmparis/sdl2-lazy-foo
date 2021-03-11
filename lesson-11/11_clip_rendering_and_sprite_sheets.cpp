@@ -15,57 +15,57 @@ const int SCREEN_HEIGHT = 480;
 class LTexture
 {
 	public:
-		//Initializes variables
+		// Initializes variables
 		LTexture();
 
-		//Deallocates memory
+		// Deallocates memory
 		~LTexture();
 
-		//Loads image at specified path
+		// Loads image at specified path
 		bool loadFromFile( std::string path );
 
-		//Deallocates texture
+		// Deallocates texture
 		void free();
 
-		//Renders texture at given point
+		// Renders texture at given point
 		void render( int x, int y, SDL_Rect* clip = NULL );
 
-		//Gets image dimensions
+		// Gets image dimensions
 		int getWidth();
 		int getHeight();
 
 	private:
-		//The actual hardware texture
+		// The actual hardware texture
 		SDL_Texture* mTexture;
 
-		//Image dimensions
+		// Image dimensions
 		int mWidth;
 		int mHeight;
 };
 
-//Starts up SDL and creates window
+// Starts up SDL and creates window
 bool init();
 
-//Loads media
+// Loads media
 bool loadMedia();
 
-//Frees media and shuts down SDL
+// Frees media and shuts down SDL
 void close();
 
-//The window we'll be rendering to
+// The window we'll be rendering to
 SDL_Window* gWindow = NULL;
 
-//The window renderer
+// The window renderer
 SDL_Renderer* gRenderer = NULL;
 
-//Scene sprites
+// Scene sprites
 SDL_Rect gSpriteClips[ 4 ];
 LTexture gSpriteSheetTexture;
 
 
 LTexture::LTexture()
 {
-	//Initialize
+	// Initialize
 	mTexture= NULL;
 	mWidth	= 0;
 	mHeight	= 0;
@@ -79,13 +79,13 @@ LTexture::~LTexture()
 
 bool LTexture::loadFromFile( std::string path )
 {
-	//Get rid of preexisting texture
+	// Get rid of preexisting texture
 	free();
 
-	//The final texture
+	// The final texture
 	SDL_Texture* newTexture = NULL;
 
-	//Load image at specified path
+	// Load image at specified path
 	SDL_Surface* loadedSurface = IMG_Load( path.c_str() );
 	if	( loadedSurface == NULL )	{
 		printf( "Unable to load image %s! SDL_image Error: %s\n", path.c_str(), IMG_GetError() );
