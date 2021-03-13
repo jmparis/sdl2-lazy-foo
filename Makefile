@@ -1,7 +1,10 @@
 TOPTARGETS	=	clean
 
 NODIRS		?=
-SUBDIRS		:=	$(sort $(filter-out $(addsuffix /,$(NODIRS)),$(wildcard ./*/)))
+SUBDIRS		:=	$(sort $(filter-out $(addsuffix /,$(NODIRS)),$(wildcard */)))
+
+#$(info $(addsuffix /,$(NODIRS)))
+#$(info $(SUBDIRS))
 
 .PHONY:		$(TOPTARGETS) $(SUBDIRS)
 
