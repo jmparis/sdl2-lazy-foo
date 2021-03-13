@@ -1,12 +1,22 @@
 # Compute compilation flags
-CPPFLAGS+=	-O3
 
 ifeq ($(CXX),g++)
-	CPPFLAGS	+=	-std=c++2a -DMESSAGE='"Compiled with GCC"'
+
+GCCVERSION		:= $(shell gcc --version | grep ^gcc | sed 's/^.* //g')
+ifeq ($(shell printf '%s\n%s\n' "$(GCCVERSION)" "10.0.0" | sort -V -C; echo $$?),0)
+	# Use old flag for gcc <= 10.0.0
+	CPPFLAGS	+=	-std=c++2a
+else
+	CPPFLAGS	+=	-std=c++20
+endif
+	CPPFLAGS	+=	-O3
+	CPPFLAGS	+=	-DMESSAGE='"Compiled with GCC"'
 endif
 
 ifeq ($(CXX),clang)
-	CPPFLAGS	+=	-std=c++20 -DMESSAGE='"Compiled with Clang"'
+	CPPFLAGS	+=	-std=c++20
+	CPPFLAGS	+=	-O3
+	CPPFLAGS	+=	-DMESSAGE='"Compiled with Clang"'
 endif
 
 CPPFLAGS+=	-Wall -Wextra -Werror
