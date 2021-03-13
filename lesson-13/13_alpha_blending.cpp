@@ -11,43 +11,43 @@ and may not be redistributed without written permission.*/
 const int SCREEN_WIDTH	= 640;
 const int SCREEN_HEIGHT = 480;
 
-//Texture wrapper class
+// Texture wrapper class
 class LTexture
 {
 	public:
-		//Initializes variables
+		// Initializes variables
 		LTexture();
 
-		//Deallocates memory
+		// Deallocates memory
 		~LTexture();
 
-		//Loads image at specified path
+		// Loads image at specified path
 		bool loadFromFile( std::string path );
 
-		//Deallocates texture
+		// Deallocates texture
 		void free();
 
-		//Set color modulation
+		// Set color modulation
 		void setColor( Uint8 red, Uint8 green, Uint8 blue );
 
-		//Set blending
+		// Set blending
 		void setBlendMode( SDL_BlendMode blending );
 
-		//Set alpha modulation
+		// Set alpha modulation
 		void setAlpha( Uint8 alpha );
 		
-		//Renders texture at given point
+		// Renders texture at given point
 		void render( int x, int y, SDL_Rect* clip = NULL );
 
-		//Gets image dimensions
+		// Gets image dimensions
 		int getWidth();
 		int getHeight();
 
 	private:
-		//The actual hardware texture
+		// The actual hardware texture
 		SDL_Texture* mTexture;
 
-		//Image dimensions
+		// Image dimensions
 		int mWidth;
 		int mHeight;
 };
@@ -136,19 +136,19 @@ void LTexture::free()
 
 void LTexture::setColor( Uint8 red, Uint8 green, Uint8 blue )
 {
-	//Modulate texture rgb
+	// Modulate texture rgb
 	SDL_SetTextureColorMod( mTexture, red, green, blue );
 }
 
 void LTexture::setBlendMode( SDL_BlendMode blending )
 {
-	//Set blending function
+	// Set blending function
 	SDL_SetTextureBlendMode( mTexture, blending );
 }
 		
 void LTexture::setAlpha( Uint8 alpha )
 {
-	//Modulate texture alpha
+	// Modulate texture alpha
 	SDL_SetTextureAlphaMod( mTexture, alpha );
 }
 
