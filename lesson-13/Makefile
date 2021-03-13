@@ -1,4 +1,14 @@
-CPPFLAGS+=	-O3 -std=c++20
+# Compute compilation flags
+CPPFLAGS+=	-O3
+
+ifeq ($(CXX),g++)
+	CPPFLAGS	+=	-std=c++2a -DMESSAGE='"Compiled with GCC"'
+endif
+
+ifeq ($(CXX),clang)
+	CPPFLAGS	+=	-std=c++20 -DMESSAGE='"Compiled with Clang"'
+endif
+
 CPPFLAGS+=	-Wall -Wextra -Werror
 #CPPFLAGS+=	$(shell pkg-config --cflags sdl2)
 CPPFLAGS+=	$(shell pkg-config --cflags SDL2_image)
