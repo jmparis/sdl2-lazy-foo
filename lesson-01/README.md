@@ -1,3 +1,5 @@
+[[<-back](../README.md)]
+
 # Hello SDL: Your First Graphics Window
 
 This tutorial covers the first major stepping stone: getting a window to pop up.
@@ -50,6 +52,7 @@ int main ( int argc, char* args[] )
 
 ------
 If SDL initialized successfully, we'll want to create a window using `SDL_CreateWindow`. The first argument sets the window's caption or this part of the window:
+
 ![caption](./img/caption.png)
 
 The next two arguments define the x and y position the window is created in. Since we don't care where it is created, we just put `SDL_WINDOWPOS_UNDEFINED` for the x and y position.
@@ -108,3 +111,6 @@ After the window has delayed there for 2 seconds, we'll destroy the window to fr
     return  0;
 }
 ```
+
+------
+[[<-back](../README.md)]
