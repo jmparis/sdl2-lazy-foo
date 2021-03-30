@@ -6,7 +6,8 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 ------
 The lessons
 
-1. [lesson-01](./lesson-01/README.md): In this tutorial we will be setting up the SDL library and creating our first window.
+0. [lesson-00](./lesson-00/README.md): In this tutorial we will be setting up the SDL library.
+1. [lesson-01](./lesson-01/README.md): In this tutorial we will be creating our first window.
 2. [lesson-02](./lesson-02/README.md): Now that we can get a window to appear, lets blit an image onto it.
 3. [lesson-03](./lesson-03/README.md): Here we'll start handling user input by allowing the user to X out the window.
 4. [lesson-04](./lesson-04/README.md): Here we'll learn to handle keyboard input.
