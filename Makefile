@@ -1,6 +1,6 @@
 TOPTARGETS	=	clean
 
-NODIRS		?=	img
+NODIRS		?=	md lesson-00
 SUBDIRS		:=	$(sort $(filter-out $(addsuffix /,$(NODIRS)),$(wildcard */)))
 
 #$(info $(addsuffix /,$(NODIRS)))
