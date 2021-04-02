@@ -320,7 +320,7 @@ bool loadMedia()
     bool success = true;
 
     //  Load prompt texture
-    if  ( !gPromptTexture.loadFromFile( "./img/prompt.png" ) )
+    if  ( !gPromptTexture.loadFromFile( "./prompt.png" ) )
     {
         printf( "Failed to load prompt texture!\n" );
         success = false;
