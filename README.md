@@ -1,6 +1,8 @@
 # SDL2 Tutorials
-![SDL Logo](./img/preview.png)
+
+![SDL Logo](./md/preview.png)
 ## GitHub [repository](https://github.com/jmparis/SDL2-lazy-foo)
+
 This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/index.php) tutorials series.
 
 ------
