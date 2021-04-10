@@ -10,11 +10,11 @@ That's what SDL does. It takes the Windows/Linux/Mac/Android/iOS/etc tools and w
 
 SDL as a dynamically linked library. A dynamically linked library has 3 parts:
 
-- The header files (Library.h)
+- The header  files (Library.h)
 - The library files (Library.lib for windows or libLibrary.a for *nix)
-- The binary files (Library.dll for windows or Library.so for *nix)
+- The binary  files (Library.dll for windows or Library.so   for *nix)
 
-Your compiler needs to be able to find the header files when compiling so it knows what SDL_Init() and the other SDL functions and structures are. You can either configure your compiler to search in an additional directory where the SDL header files are located, or put the header files in with the rest of header files that your compiler comes with. If the compiler complains that it can't find `SDL.h`, it means the header files aren't in a place that the compiler looks for header files.
+Your compiler needs to be able to find the header files when compiling so it knows what `SDL_Init()` and the other SDL functions and structures are. You can either configure your compiler to search in an additional directory where the SDL header files are located, or put the header files in with the rest of header files that your compiler comes with. If the compiler complains that it can't find `SDL.h`, it means the header files aren't in a place that the compiler  looks for header files.
 
 After your compiler compiles all your source files it has to link them together. In order for the program to link properly, it needs to know the addresses of all your functions including the ones for SDL. For a dynamically linked library, these addresses are in the library file. The library file has the Import Address Table so your program can import the functions at runtime. Like with header files, You can either configure your compiler to search in an additional directory where the SDL library files are located, or put the library files in with the rest of library files that your compiler comes with. You also have to tell the linker to link against the library file in the linker. If the linker complains that it can't find `-lSDL` or `SDL2.lib`, it means the library files aren't in a place that the linker looks for library files. If the linker complains about an undefined reference, it probably means it was never told to link the library.
 
