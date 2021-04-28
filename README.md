@@ -32,3 +32,10 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 21 | [Sound Effects and Music](./lesson-21/README.md)   | Here we'll be using `SDL_mixer` to add music and sound to our SDL App. |
 | 22 | [Timing](./lesson-22/README.md)                    | Here we'll be using SDL's time capabilites. |
 | 23 | [Advanced Timers](./lesson-23/README.md)           | Here we'll extend SDL time capabilities to make our own custom timer. |
+| 24 | [Calculating Frame Rate](./lesson-24/README.md)    | Here we'll use the timers we built to measure frame rate. |
+| 25 | [Capping Frame Rate](./lesson-25/README.md)        | If you need a constant frame rate when vsync isn't available, frame rate capping can be used as a fall back. |
+| 26 | [Motion](./lesson-26/README.md)                    | Here we'll be taking what we learned about rendering and handling input to make a dot move around the screen. |
+
+
+
+
