@@ -35,6 +35,11 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 24 | [Calculating Frame Rate](./lesson-24/README.md)    | Here we'll use the timers we built to measure frame rate. |
 | 25 | [Capping Frame Rate](./lesson-25/README.md)        | If you need a constant frame rate when vsync isn't available, frame rate capping can be used as a fall back. |
 | 26 | [Motion](./lesson-26/README.md)                    | Here we'll be taking what we learned about rendering and handling input to make a dot move around the screen. |
+| 27 | [Collision Detection](./lesson-27/README.md)       | Here we'll have two objects interact with each other using bounding box collision detection. |
+| 28 | [Per-pixel Collision Detection](./lesson-28/README.md) | Here we'll have two objects collide using per-pixel collision detection. |
+
+
+
 
 
 
