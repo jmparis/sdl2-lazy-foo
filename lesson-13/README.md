@@ -1,11 +1,15 @@
+[[<-back](../README.md)]
+
 # Alpha Blending
 
-![Alpha Blending](./img/preview.png)
+![Alpha Blending](./md/preview.png)
 
 Thanks to new hardware accelerated rendering, transparency is much faster in SDL 2.0. Here we'll use alpha modulation (which works much like color modulation) to control the transparency of a texture.
 
 ------
+
 ### Texture
+
 Here we're going to add two functions to support alpha transparency on a texture. First there's __`setAlpha`__ which will function much like __`setColor`__ did in the color modulation tutorial. There's also __`setBlendMode`__ which will control how the texture is blended. In order to get blending to work properly, you must set the blend mode on the texture. We'll cover this in detail later. 
 
 ``` C++
@@ -53,7 +57,9 @@ class LTexture
 ```
 
 ------
+
 ### loadMedia()
+
 Here in the texture loading function we're loading the front texture we're going to alpha blend and a background texture. As the front texture gets more transparent, we'll be able to see more of the back texture. As you can see in the code, after we load the front texture successfully we set the [SDL BlendMode](http://wiki.libsdl.org/SDL_BlendMode) to blend, so blending is enabled. Since the background isn't going to be transparent, we don't have to set the blending on it.
 
 Now how does alpha work? Alpha is opacity, and the lower the opacity the more we can see through it. Like red, green, or blue color components it goes from 0 to 255 when modulating it. The best way to understand it is with some examples. Say if we had the front image on a white background.
@@ -85,30 +91,38 @@ bool loadMedia()
 ```
 
 ------
+
 ### alpha examples
+
 This is the front image at 255 (100% alpha)
-![Alpha Blending](./img/alpha100.png)
+![Alpha Blending](./md/alpha100.png)
 
 ------
+
 This is the front image at 255 (75% alpha)
-![Alpha Blending](./img/alpha075.png)
+![Alpha Blending](./md/alpha075.png)
 
 ------
+
 This is the front image at 255 (50% alpha)
-![Alpha Blending](./img/alpha050.png)
+![Alpha Blending](./md/alpha050.png)
 
 ------
+
 This is the front image at 255 (25% alpha)
-![Alpha Blending](./img/alpha025.png)
+![Alpha Blending](./md/alpha025.png)
 
 ------
+
 This is the front image at 255 (0% alpha)
-![Alpha Blending](./img/alpha000.png)
+![Alpha Blending](./md/alpha000.png)
 
 As you can see, the lower the alpha the more transparent it is.
 
 ------
+
 ### SDL functions
+
 Here are the actual SDL functions that do the actual work. [SDL_SetTextureBlendMode](http://wiki.libsdl.org/SDL_SetTextureBlendMode) in __`setBlendMode`__ allows us to enable blending and [SDL_SetTextureAlphaMod](http://wiki.libsdl.org/SDL_SetTextureAlphaMod) allows us to set the amount of alpha for the whole texture. 
 
 ``` C++
@@ -126,8 +140,11 @@ void LTexture::setAlpha( Uint8 alpha )
 ```
 
 ------
+
 ### alpha
-Right before entering the main loop, we declare a variable to control how much alpha the texture has. It is initialized to 255 so the front texture starts out completely opaque. 
+
+Right before entering the main loop, we declare a variable to control how much alpha the texture has. It is initialized to 255 so the front texture starts out completely opaque.
+
 ``` C++
 			// Main loop flag
 			bool quit = false;
@@ -143,8 +160,11 @@ Right before entering the main loop, we declare a variable to control how much a
 ```
 
 ------
+
 ### Varying alpha
-The event loop handles quit events and making the alpha value go up/down with the __`w`__/__`s`__ keys. 
+
+The event loop handles quit events and making the alpha value go up/down with the __`w`__/__`s`__ keys.
+
 ``` C++
 				// Handle events on queue
 				while ( SDL_PollEvent( &e ) != 0 )	{
@@ -183,7 +203,9 @@ The event loop handles quit events and making the alpha value go up/down with th
 ```
 
 ------
+
 ### Rendering
+
 At the end of the main loop we do our rendering. After clearing the screen we render the background first and then we render the front modulated texture over it. Right before rendering the front texture, we set its alpha value. Try increasing/decreasing the alpha value to see how transparency affects the rendering.
 
 ``` C++
@@ -201,3 +223,7 @@ At the end of the main loop we do our rendering. After clearing the screen we re
 				// Update screen
 				SDL_RenderPresent( gRenderer );
 ```
+
+----
+
+[[<-back](../README.md)]

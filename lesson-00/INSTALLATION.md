@@ -7,8 +7,8 @@ Click on your Operating System below.
 
 |  OS  | Link |
 |--- | :-: |
-| [Linux](./INSTALLATION-LINUX.md)     | [![Linux](./img/Linux-Logo.svg)](./INSTALLATION-LINUX.md)          |
-| [Windows](./INSTALLATION-WINDOWS.md) | [![Windows](./img/Windows_10-Logo.svg)](./INSTALLATION-WINDOWS.md) |
+| [Linux](./INSTALLATION-LINUX.md)     | [![Linux](./md/Linux-Logo.svg)](./INSTALLATION-LINUX.md)          |
+| [Windows](./INSTALLATION-WINDOWS.md) | [![Windows](./md/Windows_10-Logo.svg)](./INSTALLATION-WINDOWS.md) |
 
 ------
 [[<-back](./README.md)]

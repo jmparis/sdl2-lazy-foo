@@ -37,10 +37,4 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 26 | [Motion](./lesson-26/README.md)                    | Here we'll be taking what we learned about rendering and handling input to make a dot move around the screen. |
 | 27 | [Collision Detection](./lesson-27/README.md)       | Here we'll have two objects interact with each other using bounding box collision detection. |
 | 28 | [Per-pixel Collision Detection](./lesson-28/README.md) | Here we'll have two objects collide using per-pixel collision detection. |
-
-
-
-
-
-
-
+| 29 | [Circular Collision Detection](./lesson-28/README.md) | Here we'll learn to detect collisions with circles and boxes. |

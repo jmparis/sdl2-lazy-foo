@@ -25,4 +25,5 @@ After you set up SDL, we'll cover how to create an [SDL 2 window](../lesson-01/R
 But first things first, let's __[install](./INSTALLATION.md)__ SDL 2 on your system!
 
 ------
+
 [[<-back](../README.md)]

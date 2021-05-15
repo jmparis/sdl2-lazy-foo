@@ -53,7 +53,7 @@ int main ( int argc, char* args[] )
 ------
 If SDL initialized successfully, we'll want to create a window using `SDL_CreateWindow`. The first argument sets the window's caption or this part of the window:
 
-![caption](./img/caption.png)
+![caption](./md/caption.png)
 
 The next two arguments define the x and y position the window is created in. Since we don't care where it is created, we just put `SDL_WINDOWPOS_UNDEFINED` for the x and y position.
 
@@ -113,4 +113,5 @@ After the window has delayed there for 2 seconds, we'll destroy the window to fr
 ```
 
 ------
+
 [[<-back](../README.md)]

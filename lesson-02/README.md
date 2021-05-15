@@ -2,7 +2,6 @@
 
 # Getting an Image on the Screen
 
-
 Now that you've already got a window open, let's put an image on it.
 
 Note: From now on the tutorials will only cover key parts of source code. For the full program, you will have to download the full source code.
@@ -10,6 +9,7 @@ Note: From now on the tutorials will only cover key parts of source code. For th
 ![Hello World](./md/preview.png)
 
 ----
+
 In the first tutorial, we put everything in the main function. Since it was a small program we can get away with that, but in real programs (like video games) you want to have your code as modular as possible. This means you want your code to be in neat chunks that are each easy to debug and reuse.
 
 Here it means we have functions to handle initialization, loading media, and closing down the SDL application. We declare these near the top of our source file.
@@ -193,6 +193,6 @@ Now that we've rendered everything to the window, we delay for two seconds so th
 
 Now that we've rendered everything to the window, we delay for two seconds so the window doesn't just disappear. After the wait is done, we close out our program.
 
-
 ----
+
 [[<-back](../README.md)]

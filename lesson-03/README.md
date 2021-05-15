@@ -63,5 +63,7 @@ After we're done processing the events for our frame, we draw to the screen and 
                 SDL_UpdateWindowSurface( gWindow );
             }
 ```
+
 ----
+
 [[<-back](../README.md)]

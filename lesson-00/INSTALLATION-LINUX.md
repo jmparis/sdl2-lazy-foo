@@ -16,7 +16,7 @@ Here are the procedures to install SDL2 on various systems.
 ```
 ### From sources
 1. Get the sources (tar.gz) from the official [SDL](http://libsdl.org/download-2.0.php) site.
-![SDL2 download](./img/SDL2-source-code.png)
+![SDL2 download](./md/SDL2-source-code.png)
 
 2. Extract the archive and cd to the folder that got extracted.
 
