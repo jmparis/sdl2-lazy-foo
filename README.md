@@ -37,4 +37,7 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 26 | [Motion](./lesson-26/README.md)                    | Here we'll be taking what we learned about rendering and handling input to make a dot move around the screen. |
 | 27 | [Collision Detection](./lesson-27/README.md)       | Here we'll have two objects interact with each other using bounding box collision detection. |
 | 28 | [Per-pixel Collision Detection](./lesson-28/README.md) | Here we'll have two objects collide using per-pixel collision detection. |
-| 29 | [Circular Collision Detection](./lesson-28/README.md) | Here we'll learn to detect collisions with circles and boxes. |
+| 29 | [Circular Collision Detection](./lesson-29/README.md) | Here we'll learn to detect collisions with circles and boxes. |
+| 30 | [Scrolling](./lesson-30/README.md) | Here we'll be implementing a camera to scroll levels larger than the screen. |
+| 31 | [Scrolling Backgrounds](./lesson-31/README.md) | Here we'll be using a scrolling background to give the illusion of an infinite level. |
+
