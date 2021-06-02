@@ -39,5 +39,8 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 28 | [Per-pixel Collision Detection](./lesson-28/README.md) | Here we'll have two objects collide using per-pixel collision detection. |
 | 29 | [Circular Collision Detection](./lesson-29/README.md) | Here we'll learn to detect collisions with circles and boxes. |
 | 30 | [Scrolling](./lesson-30/README.md) | Here we'll be implementing a camera to scroll levels larger than the screen. |
-| 31 | [Scrolling Backgrounds](./lesson-31/README.md) | Here we'll be using a scrolling background to give the illusion of an infinite level. |
+| 31 | [Scrolling Backgrounds](./lesson-31/README.md)     | Here we'll be using a scrolling background to give the illusion of an infinite level. |
+| 32 | [Text Input and Clipboard Handling](./lesson-32/README.md)     | Here we'll be using SDL 2.0's new way of handling text input and its new clipboard handling feature. |
+| 33 | [File Reading and Writing](./lesson-33/README.md)  | Here we'll be using SDL's RWOps API to do binary file IO. |
+
 
