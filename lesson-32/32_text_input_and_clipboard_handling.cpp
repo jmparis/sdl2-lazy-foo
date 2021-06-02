@@ -426,7 +426,7 @@ int main( int, char* [] )
 					{
 						//  Not copy or pasting
 						if  (
-                                !(
+                           !(
                                     SDL_GetModState() & KMOD_CTRL   &&
                                     (
                                         e.text.text[ 0 ] == 'c' ||
