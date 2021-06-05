@@ -44,3 +44,4 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 33 | [File Reading and Writing](./lesson-33/README.md)  | Here we'll be using SDL's RWOps API to do binary file IO. |
 | 34 | [Audio Recording](./lesson-34/README.md)           | SDL 2.0.8 supports audio recording. Here we'll be copying from the audio device to record and copying to the audio device to play back. |
 | 35 | [Window Events](./lesson-35/README.md)             | Here we'll be handling events from a resizable window. |
+| 36 | [Multiple Windows](./lesson-36/README.md)          | A new feature in SDL is the ability to support more than one window. Here we'll make an application that has 3 windows. |
