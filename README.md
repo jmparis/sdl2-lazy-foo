@@ -46,4 +46,5 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 35 | [Window Events](./lesson-35/README.md)             | Here we'll be handling events from a resizable window. |
 | 36 | [Multiple Windows](./lesson-36/README.md)          | A new feature in SDL is the ability to support more than one window. Here we'll make an application that has 3 windows. |
 | 37 | [Multiple Displays](./lesson-37/README.md)         | Another new feature of SDL 2.0 is the ability to handle more than one physical display. Here we'll make our window jump from display to display. |
+| 38 | [Particle Engines](./lesson-38/README.md)          | Here we'll use a simple particle effect to create a simple trail effect. |
 
