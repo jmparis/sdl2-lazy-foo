@@ -1,6 +1,6 @@
 TOPTARGETS	=	clean
 
-NODIRS		?=	md lesson-00
+NODIRS		?=	share md lesson-00
 SUBDIRS		:=	$(sort $(filter-out $(addsuffix /,$(NODIRS)),$(wildcard */)))
 
 #$(info $(addsuffix /,$(NODIRS)))
