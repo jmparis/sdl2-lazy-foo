@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-42",
+            "binaryPath": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-42/42_texture_streaming",
+            "binaryArgs": []
+        }
+    ]
+}

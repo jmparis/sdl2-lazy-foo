@@ -1,0 +1,8 @@
+make 42_texture_streaming --dry-run --keep-going --print-directory
+make: Entering directory '/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-42'
+ 
+g++  -std=c++20 -O3 -DMESSAGE='"Compiled with GCC"' -Wall -Wextra -Werror -I/usr/include/SDL2 -D_REENTRANT   -c -o 42_texture_streaming.o 42_texture_streaming.cpp
+ 
+cc   42_texture_streaming.o  -lSDL2_ttf -lSDL2_image -lSDL2_mixer -pthread -lSDL2  -lstdc++ -o 42_texture_streaming
+make: Leaving directory '/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-42'
+ 
