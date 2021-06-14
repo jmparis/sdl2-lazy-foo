@@ -1,7 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-43'
- 
-g++  -std=c++20 -O3 -DMESSAGE='"Compiled with GCC"' -Wall -Wextra -Werror -I/usr/include/SDL2 -D_REENTRANT   -c -o 43_render_to_texture.o 43_render_to_texture.cpp
-cc   43_render_to_texture.o  -lSDL2_ttf -lSDL2_image -lSDL2_mixer -pthread -lSDL2  -lstdc++ -o 43_render_to_texture
-make: Leaving directory '/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-43'
- 
