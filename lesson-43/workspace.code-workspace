@@ -1,0 +1,19 @@
+{
+	"folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../lesson-44"
+        }
+    ],
+    "settings": {
+        "makefile.launchConfigurations": [
+            {
+                "cwd": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-43",
+                "binaryPath": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-43/43_render_to_texture",
+                "binaryArgs": []
+            }
+        ]
+    }
+}
