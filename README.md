@@ -52,4 +52,5 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 41 | [Bitmap Fonts](./lesson-41/README.md)              | Here we'll be using a texture as a font using bitmap font techniques.  |
 | 42 | [Texture Streaming](./lesson-42/README.md)         | Here we'll be rendering from a streaming data source using texture streaming.  |
 | 43 | [Render to Texture](./lesson-43/README.md)         | Here we'll be taking a scene and rendering it to a texture.  |
+| 44 | [Frame Independent Movement](./lesson-44/README.md)| Here we'll be making the dot move independent of the current frame rate. |
 
