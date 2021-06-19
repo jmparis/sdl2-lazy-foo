@@ -1,0 +1,16 @@
+{
+	"folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "makefile.launchConfigurations": [
+            {
+                "cwd": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-45",
+                "binaryPath": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-45/45_timer_callbacks",
+                "binaryArgs": []
+            }
+        ]
+    }
+}
