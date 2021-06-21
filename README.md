@@ -54,4 +54,5 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 43 | [Render to Texture](./lesson-43/README.md)           | Here we'll be taking a scene and rendering it to a texture.  |
 | 44 | [Frame Independent Movement](./lesson-44/README.md)  | Here we'll be making the dot move independent of the current frame rate. |
 | 45 | [Timer Callbacks](./lesson-45/README.md)             | SDL has another timing mechanism called timer callbacks. Here we'll be setting a function to be called back after a certain amount of time. |
+| 46 | [Multithreading](./lesson-46/README.md)              | Multithreading allows your program to do things simultaneously. Here we'll make things print to the console from outside our main thread. |
 
