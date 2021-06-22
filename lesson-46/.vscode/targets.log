@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
- 
 # GNU Make 4.3
 # Built for aarch64-unknown-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jun 21 12:06:54 2021
+# Make data base, printed on Tue Jun 22 15:26:26 2021
 
 # Variables
 
@@ -25,7 +23,7 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 CSF_EXCEPTION_PROMPT = 1
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c48715ac-8f6b-46a4-9d59-727e5f6070d8.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-094a26a5-83b0-4c8c-a49b-79cb5ab80dad.sock
 # environment
 CSF_XmlOcafResource = /usr/share/opencascade/resources/XmlOcafResource
 # environment
@@ -283,6 +281,9 @@ GDMSESSION = gnome
 
 # Directories
 
+ 
+make: *** No rule to make target 'all'.  Stop.
+ 
 # . (device 45826, inode 2230324): 10 files, no impossibilities.
 
 # 10 files, no impossibilities in 1 directories.
@@ -314,7 +315,6 @@ clean:
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 46_multithreading: 46_multithreading.o
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -354,6 +354,6 @@ all:
 # strcache performance: lookups = 26 / hit rate = 26%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=0/26=0%
-# Finished Make data base on Mon Jun 21 12:06:54 2021
+# Finished Make data base on Tue Jun 22 15:26:26 2021
 
  

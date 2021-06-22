@@ -1,8 +1,7 @@
-make 46_multithreading --dry-run --keep-going --print-directory
+make 46_multithreading --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-46'
  
 g++  -std=c++20 -O3 -DMESSAGE='"Compiled with GCC"' -Wall -Wextra -Werror -I/usr/include/SDL2 -D_REENTRANT   -c -o 46_multithreading.o 46_multithreading.cpp
- 
 cc   46_multithreading.o  -lSDL2_ttf -lSDL2_image -lSDL2_mixer -pthread -lSDL2  -lstdc++ -o 46_multithreading
 make: Leaving directory '/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-46'
  
