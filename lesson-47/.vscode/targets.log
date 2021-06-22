@@ -1,0 +1,358 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.3
+# Built for aarch64-unknown-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jun 22 16:58:37 2021
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+STARSHIP_SESSION_KEY = 1795778231574829
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+CSF_EXCEPTION_PROMPT = 1
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-366e899b-3e05-4bab-b7d0-302c38372ce8.sock
+# environment
+CSF_XmlOcafResource = /usr/share/opencascade/resources/XmlOcafResource
+# environment
+VSCODE_CWD = /home/jean-michel
+# environment
+MMGT_CLEAR = 1
+# environment
+CSF_XCAFDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CSF_PluginDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CASROOT = /usr
+# environment
+GDM_LANG = fr_FR.UTF-8
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-47
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/jean-michel
+# environment
+OLDPWD = /home/jean-michel
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+LIBVA_V4L2_REQUEST_VIDEO_PATH = /dev/video1
+# environment
+CSF_ShadersDirectory = /usr/share/opencascade/resources/Shaders
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.09SR50
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-47
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = |/usr/bin/lesspipe.sh %s
+# makefile (from '../share/Makefile', line 28)
+SRCS = $(shell echo *.cpp)
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+CSF_MDTVTexturesDirectory = /usr/share/opencascade/resources/Textures
+# environment
+WAYLAND_DISPLAY = wayland-0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = gnome
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=8bb9e834-a8b6-4a14-9cce-4e79bf5bf1cd&iid=8bb9e834-a8b6-4a14-9cce-4e79bf5bf1cd&sid=8bb9e834-a8b6-4a14-9cce-4e79bf5bf1cd","uploadToServer":true}
+# makefile (from '../share/Makefile', line 1)
+MAKEFILE_LIST := Makefile ../share/Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 4102
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+FZF_DEFAULT_COMMAND = fd --type f --hidden --follow --exclude .git
+# environment
+CSF_XSMessage = /usr/share/opencascade/resources/XSMessage
+# environment
+DRAWDEFAULT = /usr/share/opencascade/resources/DrawResources/DrawDefault
+# environment
+SESSION_MANAGER = local/heomeo-pi-dev:@/tmp/.ICE-unix/560,unix/heomeo-pi-dev:/tmp/.ICE-unix/560
+# automatic
+*F = $(notdir $*)
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+CSF_SHMessage = /usr/share/opencascade/resources/SHMessage
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+BREAKPAD_DUMP_LOCATION = /home/jean-michel/.config/Code/exthost Crash Reports
+# environment
+SILVER_ICONS = nerd
+# default
+MAKE_HOST := aarch64-unknown-linux-gnu
+# makefile (from '../share/Makefile', line 29)
+OBJS = $(subst .cpp,.o,$(SRCS))
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+CSF_TObjDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/bin:/usr/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/vc/bin:/usr/lib/jvm/default/bin:/opt/vc/bin
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# environment
+CSF_OCCTResourcePath = /usr/share/opencascade/resources
+# automatic
+^F = $(notdir $^)
+# makefile (from '../share/Makefile', line 26)
+LDLIBS = $(shell pkg-config --libs   SDL2_ttf SDL2_image SDL2_mixer) -lstdc++
+# environment
+INVOCATION_ID = e64c5c4ca62e44018cca2c33c4465bbc
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = jean-michel
+# environment
+CSF_StandardLiteDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+GNOME_SETUP_DISPLAY = :1
+# environment
+CSF_STEPDefaults = /usr/share/opencascade/resources/XSTEPResource
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# environment
+CSF_MIGRATION_TYPES = /usr/share/opencascade/resources/StdResource/MigrationSheet.txt
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = gnome
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = jean-michel
+# environment
+CSF_LANGUAGE = us
+# makefile (from '../share/Makefile', line 23)
+CPPFLAGS = -Wall -Wextra -Werror $(shell pkg-config --cflags SDL2_ttf SDL2_image SDL2_mixer)
+# environment
+LIBVA_DRIVER_NAME = v4l2_request
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile (from '../share/Makefile', line 30)
+EXES = $(subst .cpp,,$(SRCS))
+# makefile
+.DEFAULT_GOAL := 47_semaphores
+# environment
+SYSTEMD_EXEC_PID = 575
+# environment
+CSF_TObjMessage = /usr/share/opencascade/resources/TObj
+# environment
+EDITOR = nvim
+# environment
+DISPLAY = :0
+# environment
+USER = jean-michel
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+MANAGERPID = 513
+# environment
+STARSHIP_SHELL = bash
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4102
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = /home/jean-michel/.config/Code/CachedData/054a9295330880ed74ceaedda236253b4f39a335
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+CSF_DrawPluginDefaults = /usr/share/opencascade/resources/DrawResources
+# environment
+CSF_IGESDefaults = /usr/share/opencascade/resources/XSTEPResource
+# environment
+JOURNAL_STREAM = 8:11879
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/jean-michel
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+DRAWHOME = /usr/share/opencascade/resources/DrawResources
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-996d6871-1.56.2-main.sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+CSF_StandardDefaults = /usr/share/opencascade/resources/StdResource
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = gnome
+# variable set hash-table stats:
+# Load=131/1024=13%, Rehash=0, Collisions=13/182=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 45826, inode 2230332): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-22 14:44:16.686689265
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '../share/Makefile', line 35):
+	$(RM) $(EXES)
+	$(RM) $(OBJS)
+
+47_semaphores: 47_semaphores.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+47_semaphores.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../share/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-07 10:47:19.189517928
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/20=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 19 / storage = 209 B / avg = 11 B
+# current buf: size = 8162 B / used = 209 B / count = 19 / avg = 11 B
+
+# strcache performance: lookups = 26 / hit rate = 26%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=0/26=0%
+# Finished Make data base on Tue Jun 22 16:58:37 2021
+
+ 

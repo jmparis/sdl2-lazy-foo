@@ -1,0 +1,8 @@
+make 47_semaphores --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-47'
+ 
+g++  -std=c++20 -O3 -DMESSAGE='"Compiled with GCC"' -Wall -Wextra -Werror -I/usr/include/SDL2 -D_REENTRANT   -c -o 47_semaphores.o 47_semaphores.cpp
+ 
+cc   47_semaphores.o  -lSDL2_ttf -lSDL2_image -lSDL2_mixer -pthread -lSDL2  -lstdc++ -o 47_semaphores
+make: Leaving directory '/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-47'
+ 
