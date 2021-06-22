@@ -1,0 +1,22 @@
+{
+	"folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "makefile.launchConfigurations": [
+            {
+                "cwd": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-46",
+                "binaryPath": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-46/46_multithreading",
+                "binaryArgs": []
+            },
+            {
+                "cwd": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-47",
+                "binaryPath": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-47/47_semaphores",
+                "binaryArgs": []
+            }
+        ],
+        "makefile.extensionOutputFolder": "./.vscode"
+    }
+}
