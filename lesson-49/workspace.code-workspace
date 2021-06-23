@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "makefile.extensionOutputFolder": "./.vscode",
+        "makefile.launchConfigurations": [
+            {
+                "cwd": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-49",
+                "binaryPath": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-49/49_mutexes_and_conditions",
+                "binaryArgs": []
+            }
+        ]
+    }
+}
