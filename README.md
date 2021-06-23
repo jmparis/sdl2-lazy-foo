@@ -56,4 +56,5 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 45 | [Timer Callbacks](./lesson-45/README.md)             | SDL has another timing mechanism called timer callbacks. Here we'll be setting a function to be called back after a certain amount of time. |
 | 46 | [Multithreading](./lesson-46/README.md)              | Multithreading allows your program to do things simultaneously. Here we'll make things print to the console from outside our main thread. |
 | 47 | [Semaphores](./lesson-47/README.md)                  | A major issue in multithreaded applications is that you need to make sure that they don't try to access the same data at the same time. Semaphores are a way to make sure only a certain amount of threads are performing an action at the same time. |
+| 48 | [Atomic Operations](./lesson-48/README.md)           | Atomic operations are another way to synchronize threads. Here we'll be redoing the previous tutorial with atomic counters. |
 

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "makefile.launchConfigurations": [
+            {
+                "cwd": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-48",
+                "binaryPath": "/home/jean-michel/Documents/Repos/SDL2-lazy-foo/lesson-48/48_atomic_operations",
+                "binaryArgs": []
+            }
+        ]
+    }
+}
