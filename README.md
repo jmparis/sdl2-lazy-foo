@@ -58,4 +58,4 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 47 | [Semaphores](./lesson-47/README.md)                  | A major issue in multithreaded applications is that you need to make sure that they don't try to access the same data at the same time. Semaphores are a way to make sure only a certain amount of threads are performing an action at the same time. |
 | 48 | [Atomic Operations](./lesson-48/README.md)           | Atomic operations are another way to synchronize threads. Here we'll be redoing the previous tutorial with atomic counters. |
 | 49 | [Mutexes and Conditions](./lesson-49/README.md)      | Mutexes and conditions are yet another way to synchronize threads. Here we'll be using the added benefit that they allow threads to communicate with each other. |
-
+| 50 | [SDL and OpenGL 2](./lesson-50/README.md)            | SDL is a powerful tool when combined with OpenGL. If you're just starting out with OpenGL or want to maximize compatibility, you can use SDL with OpenGL 2.1. In this tutorial we will make a minimalist OpenGL 2.1 program. |
