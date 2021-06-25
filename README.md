@@ -59,3 +59,4 @@ This tutorial is based on the [SDL lazy' foo](https://lazyfoo.net/tutorials/SDL/
 | 48 | [Atomic Operations](./lesson-48/README.md)           | Atomic operations are another way to synchronize threads. Here we'll be redoing the previous tutorial with atomic counters. |
 | 49 | [Mutexes and Conditions](./lesson-49/README.md)      | Mutexes and conditions are yet another way to synchronize threads. Here we'll be using the added benefit that they allow threads to communicate with each other. |
 | 50 | [SDL and OpenGL 2](./lesson-50/README.md)            | SDL is a powerful tool when combined with OpenGL. If you're just starting out with OpenGL or want to maximize compatibility, you can use SDL with OpenGL 2.1. In this tutorial we will make a minimalist OpenGL 2.1 program. |
+| 51 | [SDL and Modern OpenGL](./lesson-51/README.md)       | SDL 2.0 now has support for OpenGL 3.0+ with context controls. Here we'll be making a minimalist OpenGL 3+ core program. |
