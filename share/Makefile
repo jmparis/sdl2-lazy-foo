@@ -20,9 +20,9 @@ ifeq ($(CXX),clang)
 endif
 
 CPPFLAGS+=	-Wall -Wextra -Werror
-CPPFLAGS+=	$(shell pkg-config --cflags SDL2_ttf SDL2_image SDL2_mixer glu)
+CPPFLAGS+=	$(shell pkg-config --cflags SDL2_ttf SDL2_image SDL2_mixer glew)
 
-LDLIBS	+=	$(shell pkg-config --libs   SDL2_ttf SDL2_image SDL2_mixer glu)
+LDLIBS	+=	$(shell pkg-config --libs   SDL2_ttf SDL2_image SDL2_mixer glew)
 LDLIBS	+=	-lstdc++
 
 SRCS	=	$(shell echo *.cpp)
