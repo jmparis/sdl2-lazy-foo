@@ -381,19 +381,19 @@ void Dot::render()
 
 void Dot::shiftColliders()
 {
-    //The row offset
+    // The row offset
     int r = 0;
 
-    //Go through the dot's collision boxes
-    for( int set = 0; set < mColliders.size(); ++set )
+    // Go through the dot's collision boxes
+    for( int set = 0; set < (int) mColliders.size(); ++set )
     {
-        //Center the collision box
+        // Center the collision box
         mColliders[ set ].x = mPosX + ( DOT_WIDTH - mColliders[ set ].w ) / 2;
 
-        //Set the collision box at its row offset
+        // Set the collision box at its row offset
         mColliders[ set ].y = mPosY + r;
 
-        //Move the row offset down the height of the collision box
+        // Move the row offset down the height of the collision box
         r += mColliders[ set ].h;
     }
 }
@@ -463,7 +463,7 @@ bool loadMedia()
 	bool success = true;
 
 	//Load dot texture
-	if( !gDotTexture.loadFromFile( "28_per-pixel_collision_detection/dot.bmp" ) )
+	if( !gDotTexture.loadFromFile( "./dot.bmp" ) )
 	{
 		printf( "Failed to load dot texture!\n" );
 		success = false;
@@ -497,7 +497,7 @@ bool checkCollision( std::vector<SDL_Rect>& a, std::vector<SDL_Rect>& b )
     int bottomA, bottomB;
 
     //Go through the A boxes
-    for( int Abox = 0; Abox < a.size(); Abox++ )
+    for( int Abox = 0; Abox < (int) a.size(); Abox++ )
     {
         //Calculate the sides of rect A
         leftA = a[ Abox ].x;
@@ -506,7 +506,7 @@ bool checkCollision( std::vector<SDL_Rect>& a, std::vector<SDL_Rect>& b )
         bottomA = a[ Abox ].y + a[ Abox ].h;
 
         //Go through the B boxes
-        for( int Bbox = 0; Bbox < b.size(); Bbox++ )
+        for( int Bbox = 0; Bbox < (int) b.size(); Bbox++ )
         {
             //Calculate the sides of rect B
             leftB = b[ Bbox ].x;
@@ -527,7 +527,7 @@ bool checkCollision( std::vector<SDL_Rect>& a, std::vector<SDL_Rect>& b )
     return false;
 }
 
-int main( int argc, char* args[] )
+int main( int /*argc*/, char* /*args*/[] )
 {
 	//Start up SDL and create window
 	if( !init() )
